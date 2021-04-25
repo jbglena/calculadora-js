@@ -1,0 +1,42 @@
+.calculadora{
+  display:block;
+  margin:0 auto;
+  padding:20px;
+  background-image: radial-gradient(circle at 18.73% 104.16%, #a3deda 0, #a1dedf 3.57%, #a0dde4 7.14%, #a1dde8 10.71%, #a2dcec 14.29%, #a5dbf0 17.86%, #a9daf3 21.43%, #aed9f5 25%, #b3d7f7 28.57%, #b9d6f8 32.14%, #bfd4f8 35.71%, #c6d2f8 39.29%, #cdd0f7 42.86%, #d4cff5 46.43%, #dacdf2 50%, #e0cbef 53.57%, #e6caeb 57.14%, #ebc9e7 60.71%, #efc7e2 64.29%, #f3c7dd 67.86%, #f6c6d8 71.43%, #f9c6d3 75%, #fac6ce 78.57%, #fbc6c8 82.14%, #fbc6c3 85.71%, #fac7bf 89.29%, #f8c8bb 92.86%, #f6c9b7 96.43%, #f3cbb3 100%);
+  width:355px;
+  height:550px;
+  border-radius: 10px;
+}
+.calculadora td button{
+  display:block;
+  width:75px;
+  height: 70px;
+  cursor: pointer;
+  font-size: 2rem;
+  border: 3px solid pink;
+  background-color: white;
+}
+
+#creditos{
+  display:block;
+  padding-top:20px;
+  color:black;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+font-size: 15px;
+}
+
+
+#resultado{
+  display:block;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  width:305px;
+  height: 100px;
+  background-color:#fff;
+  border-radius: 15px;
+  overflow-y: scroll;
+  font-size: 2.85rem;
+  text-align: right;
+}
